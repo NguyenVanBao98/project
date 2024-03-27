@@ -1,0 +1,66 @@
+.detail-product .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+.detail-product .add button {
+    width: 60%;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px 0px;
+    transition: 0.5s;
+    background-color: white;
+    color: black;
+}
+.detail-product .add:hover button {
+    background-color: var(--secondary-color);
+    color: white;
+}
+.detail-product .left img {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.detail-product .right .list {
+    width: 60%;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.detail-product .price-market.active {
+    font-size: 15px;
+    text-decoration: line-through;
+    margin: 0px 10px;
+    color: gray;
+}
+.detail-product .thumb-sale {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+.detail-product .head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-size: 80px;
+    font-weight: bold;
+    color: transparent;
+    stroke-width: 1px;
+    stroke: var(--secondary-color);
+    -webkit-text-stroke-color: var(--secondary-color);
+    -webkit-text-stroke-width: 1px;
+}
+.detail-product .chose button {
+    background-color: white;
+    border-radius: 40px;
+    padding: 10px 30px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}

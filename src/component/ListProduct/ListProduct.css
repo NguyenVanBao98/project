@@ -1,0 +1,65 @@
+.option button {
+    padding: 5px 25px;
+    border-radius: 20px;
+    border-color: transparent;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+.option button:hover {
+    background-color: var(--secondary-color);
+    color: white;
+}
+.option {
+    margin-bottom: 20px;
+    border-radius: 20px 0 20px 0;
+    padding: 20px;
+    background-color: #2d2c2c;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.brand {
+    border: 1px solid;
+    padding: 5px 25px;
+    border-radius: 15px;
+}
+.list-product-head {
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-size: 80px;
+    font-weight: bold;
+    color: transparent;
+    stroke-width: 1px;
+    stroke: var(--secondary-color);
+    -webkit-text-stroke-color: var(--secondary-color);
+    -webkit-text-stroke-width: 1px;
+}
+.list-product .slick-slider .slick-prev {
+    position: absolute;
+    z-index: 10;
+    background-color: transparent;
+}
+.list-product .slick-slider .slick-next {
+    position: absolute;
+    z-index: 10;
+    background-color: transparent;
+}
+.list-product .slick-prev:before {
+    line-height: 13px;
+    color: black;
+    font-size: 30px;
+}
+.list-product .slick-next:before {
+    line-height: 13px;
+    color: black;
+    font-size: 30px;
+    margin-left: -11px;
+}
+.list {
+    overflow-y: auto;
+    max-height: 100vh;
+}

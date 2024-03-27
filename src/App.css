@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    --primary-color: #1e2022;
+    --secondary-color: #f2c434;
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+img {
+    width: 100%;
+    display: block;
+}
+a {
+    text-decoration: none;
+}

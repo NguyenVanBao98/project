@@ -1,0 +1,110 @@
+.total {
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px 0 20px 0;
+    font-size: 40px;
+    background-color: #2d2c2c;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    align-items: center;
+}
+.total h4 {
+    font-size: 35px;
+}
+.my-cart {
+    margin: 20px auto;
+    display: flex;
+    font-size: 35px;
+    border-radius: 20px 0 20px 0;
+    padding: 10px;
+    background-color: #2d2c2c;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.my-cart .left {
+    margin: 0 auto;
+}
+.my-cart .left img {
+    width: 180px;
+    border-radius: 20px;
+}
+.my-cart .right {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.my-cart .top {
+    display: flex;
+    justify-content: space-between;
+}
+.my-cart .bottom {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    align-items: center;
+}
+.my-cart .price {
+    font-size: 20px;
+    font-weight: normal;
+}
+.my-cart .thumb-sale {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+}
+.my-cart .thumb-sale h3 {
+    font-size: 10px;
+}
+.my-cart .price-market.active {
+    font-size: 15px;
+    text-decoration: line-through;
+    margin: 0px 10px;
+    color: gray;
+}
+.my-cart .quality {
+    border-radius: 30px;
+    padding: 10px;
+    background-color: var(--secondary-color);
+    color: black;
+}
+.my-cart-btn {
+    width: 100%;
+    background-color: var(--secondary-color);
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    padding: 18px 20px;
+    font-size: 35px;
+    border-radius: 20px 0px;
+    display: block;
+}
+.notice {
+    font-size: 25px;
+    border-radius: 20px 0 20px 0;
+    padding: 10px;
+    background-color: #2d2c2c;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 70%;
+    margin: 40px auto;
+    display: block;
+    background-color: white;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+.my-top-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-size: 80px;
+    font-weight: bold;
+    color: transparent;
+    stroke-width: 1px;
+    stroke: var(--secondary-color);
+    -webkit-text-stroke-color: var(--secondary-color);
+    -webkit-text-stroke-width: 1px;
+}

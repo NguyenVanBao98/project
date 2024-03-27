@@ -1,0 +1,72 @@
+.menu {
+    background: var(--primary-color);
+}
+.logo {
+    font-family: "Dancing Script", cursive;
+    display: flex;
+    gap: 20px;
+}
+.logo img {
+    width: 80px;
+}
+.logo h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondary-color);
+}
+.navbar .list {
+    margin: 50px;
+    font-size: 18px;
+    align-items: center;
+}
+.navbar .list a {
+    color: var(--secondary-color);
+    margin: 0 5px;
+    transition: 1s;
+}
+.navbar .list a:hover {
+    color: white;
+}
+.cart {
+    background-color: white;
+    padding: 8px;
+    border-radius: 7px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 1s;
+    color: var(--secondary-color);
+}
+.cart:hover {
+    background-color: var(--secondary-color);
+    color: white;
+}
+.cart span {
+    margin-left: 5px;
+    font-weight: bold;
+}
+.btn {
+    color: var(--secondary-color);
+    border: none;
+    background-color: white;
+}
+.btn:hover {
+    background-color: var(--secondary-color);
+    color: white;
+    transition: 0.5s;
+}
+@media (max-width: 991px) {
+    .navbar .list a {
+        margin-right: auto;
+    }
+    .navbar-toggler {
+        background-color: white;
+        margin-left: auto;
+    }
+    .cart {
+        position: absolute;
+        top: 28px;
+        right: 22%;
+    }
+}
